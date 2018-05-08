@@ -1,0 +1,329 @@
+*{
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+}
+
+body {
+  background-color:#C2DC76;
+  font-family: 'Alegreya Sans', sans-serif;
+  /* background-size:cover; */
+}
+
+#Header {
+  margin:0 auto;
+  height: 100%;
+  background-color: #FFFFFF;
+  border-bottom: 5px dotted rgb(0,0,0);
+
+  min-height: 800px;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  border-radius: 12px;
+  padding: 12px 28px;
+  border: 2px solid #4CAF50;
+}
+
+form {
+    display:inline-block;
+    border:8px solid white;
+    /* width: 450px; */
+    padding:50px 0;
+    /* background: blue; */
+}
+
+#aboutMe1 {
+  background-color: #000;
+  margin-left: 200px;
+  /* border-bottom: 5px dotted rgb(0,0,0); */
+  color: white;
+  position: absolute;
+  align-self: center;
+  padding: 10px 0;
+
+  width: 900px;
+   height: 60px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -450px;
+   margin-top: -30px;
+
+}
+
+#aboutMe2 {
+
+  background-color: #000;
+  margin-left: 200px;
+  /* border-bottom: 5px dotted rgb(0,0,0); */
+  color: white;
+  position: absolute;
+  align-self: center;
+  padding: 10px 0;
+
+  width: 900px;
+   height: 370px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -450px;
+   margin-top: -185px;
+   border-bottom: 5px dotted white;
+
+}
+
+
+#exp {
+
+  background-color: #000;
+  margin-left: 200px;
+  /* border-bottom: 5px dotted rgb(0,0,0); */
+  color: white;
+  position: absolute;
+  align-self: center;
+  padding: 10px 0;
+
+  width: 900px;
+   height: 60px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -450px;
+   margin-top: -30px;
+
+}
+
+#exp1 {
+  background-color: #000;
+  /* border-bottom: 5px dotted rgb(0,0,0); */
+  color: white;
+  position: absolute;
+  align-self: center;
+  padding: 10px 0;
+
+  width: 440px;
+   height: 310px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -450px;
+   margin-top: -155px;
+   border-bottom: 5px dotted white;
+
+}
+
+#exp2 {
+  background-color: #000;
+  /* border-bottom: 5px dotted rgb(0,0,0); */
+  color: white;
+  position: absolute;
+  align-self: center;
+  padding: 10px 0;
+
+  width: 440px;
+   height: 310px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: 10px;
+   margin-top: -155px;
+   border-bottom: 5px dotted white;
+
+}
+
+#mySkills {
+
+  background-color: #000;
+  /* border-bottom: 5px dotted rgb(0,0,0); */
+  color: white;
+  position: absolute;
+  text-align: left;
+  padding: 10px 0;
+
+  width: 900px;
+   height: 60px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -450px;
+   margin-top: -30px;
+
+}
+
+#mySkills1 {
+  margin:0 auto;
+  /* height: 700px; */
+  width: 850px;
+  background-color: #000;
+  margin-left: 200px;
+  /* border-bottom: 5px dotted rgb(0,0,0); */
+  color: white;
+  position: absolute;
+  align-self: center;
+  padding: 10px 0;
+
+  width: 900px;
+   height: 300px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -450px;
+   margin-top: -150px;
+   border-bottom: 5px dotted white;
+
+}
+
+
+#myProjects {
+
+  background-color: #000;
+  /* border-bottom: 5px dotted rgb(0,0,0); */
+  color: white;
+  position: absolute;
+  text-align: left;
+  padding: 10px 0;
+
+  width: 900px;
+   height: 60px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -450px;
+   margin-top: -30px;
+
+}
+
+#myProjects1 {
+  margin:0 auto;
+  /* height: 700px; */
+  width: 850px;
+  background-color: #000;
+  margin-left: 200px;
+  /* border-bottom: 5px dotted rgb(0,0,0); */
+  color: white;
+  position: absolute;
+  align-self: center;
+  padding: 10px 0;
+
+  width: 900px;
+   height: 700px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -450px;
+   margin-top: -350px;
+   border-bottom: 5px dotted white;
+
+}
+
+#myProjects2 {
+  margin:0 auto;
+  /* height: 700px; */
+  width: 850px;
+  background-color: #000;
+  margin-left: 200px;
+  /* border-bottom: 5px dotted rgb(0,0,0); */
+  color: white;
+  position: absolute;
+  align-self: center;
+  padding: 10px 0;
+
+  width: 900px;
+   height: 800px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -450px;
+   margin-top: -400px;
+   border-bottom: 5px dotted white;
+
+}
+
+#contactMe {
+  margin:0 auto;
+  /* height: 700px; */
+margin-left: 200px;
+  width: 850px;
+  background-color: #000;
+  /* border-bottom: 5px dotted rgb(0,0,0); */
+  color: white;
+  position: absolute;
+  text-align: left;
+  padding: 10px 0;
+
+  width: 900px;
+   height: 60px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -450px;
+   margin-top: -30px;
+}
+
+#contactMe2 {
+
+  background-color: #000;
+  margin-left: 200px;
+  /* border-bottom: 5px dotted rgb(0,0,0); */
+  color: white;
+  position: absolute;
+  align-self: center;
+  padding: 10px 0;
+
+  width: 900px;
+   height: 500px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -450px;
+   margin-top: -250px;
+   border-bottom: 5px dotted white;
+
+}
+
+/* progess bar stuff */
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+span {
+  background-color: black;
+  padding:15px;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 6px;
+  background: #000;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 6px;
+  background: #4caf50;
+  width: 0%;
+}
+
+
+/* clickable stuff */
+
+a:link, a:visited {
+    color: yellow;
+    text-decoration: underline;
+    cursor: grab;
+}
+
+a:link:active, a:visited:active {
+    color: pink;
+}
