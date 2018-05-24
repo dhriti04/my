@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color:#C2DC76;
+  background-color:#FAEBEF;
   font-family: 'Alegreya Sans', sans-serif;
   /* background-size:cover; */
 }
@@ -26,7 +26,7 @@ body {
 input {
   border-radius: 12px;
   padding: 12px 28px;
-  border: 2px solid #4CAF50;
+  border: 2px solid #D88DA0;
 }
 
 form {
@@ -53,6 +53,7 @@ form {
    top: 50%;
    margin-left: -450px;
    margin-top: -30px;
+   border-radius: 25px;
 
 }
 
@@ -95,6 +96,7 @@ form {
    top: 50%;
    margin-left: -450px;
    margin-top: -30px;
+   border-radius: 25px;
 
 }
 
@@ -152,6 +154,7 @@ form {
    top: 50%;
    margin-left: -450px;
    margin-top: -30px;
+   border-radius: 25px;
 
 }
 
@@ -195,6 +198,7 @@ form {
    top: 50%;
    margin-left: -450px;
    margin-top: -30px;
+   border-radius: 25px;
 
 }
 
@@ -263,6 +267,7 @@ margin-left: 200px;
    top: 50%;
    margin-left: -450px;
    margin-top: -30px;
+   border-radius: 25px;
 }
 
 #contactMe2 {
@@ -332,7 +337,7 @@ span {
 /* The progress bar (scroll indicator) */
 .progress-bar {
   height: 6px;
-  background: #4caf50;
+  background: #EEB5C4;
   width: 0%;
 }
 
@@ -340,13 +345,16 @@ span {
 /* clickable stuff */
 
 a:link, a:visited {
-    color: green;
-    text-decoration: underline;
+    color: #D88DA0;
+    /* text-decoration: underline; */
+    text-decoration: none;
     cursor: grab;
 }
 
 a:link:active, a:visited:active {
     color: pink;
+    text-decoration: none;
+
 }
 
 footer {
