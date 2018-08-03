@@ -27,24 +27,27 @@
 
 <body>
 
-  <div class="header">
-    <!-- <h2 style="text-align: center; padding: 1px;"></h2> -->
-    <div class="progress-container">
-      <div class="progress-bar" id="myBar"></div>
-    </div>
+  <div id="navbar">
+    <a href="#home" onclick="return toggle('pg0')">Home</a>
+    <a href="#experience" onclick="return toggle('pg1')">Experience</a>
+    <a href="#projects" onclick="return toggle('pg2')">Projects</a>
+    <a href="#hobbies" onclick="return toggle('pg3')">Hobbies</a>
+    <a href="#contact" onclick="return toggle('pg4')">Contact me</a>
   </div>
 
 <div id="Header">
   <p style="font-size: 20px; margin-top: 270px;font-weight: 600;">Hello world, I'm </p>
   <p style="font-size: 100px;">DHRITI CHAWLA</p>
   <p style="font-size: 20px;font-weight: 600;">Welcome to my personal website ^_^ </p>
-
 </div>
 
-<form>
+
+<form method="post" id="test" onsubmit="return false;">
 
   <input type="button" id="myBtn" title="Go to top" value="top" onclick="smoothScroll(document.getElementById('myBtn'))">
 
+<div id="pg">
+<div id='pg0' class="pg">
   <div id="aboutMe1" style="margin-top: 580px; text-align: center;">
     <p style="font-size: 40px;margin-left: 40px;">ABOUT ME</p>
   </div>
@@ -60,6 +63,9 @@
       <input type="button"  style="margin-top: 90px;margin-left: 40px;" value="View Resume" onClick="window.open('pics/Resume.pdf');">
     </p>
   </div>
+</div>
+
+<div id='pg1' class="pg">
 
   <div id="exp" style="margin-top: 1155px; text-align: center;">
     <p style="font-size: 40px;">EXPERIENCE</p>
@@ -136,6 +142,10 @@
     </p>
   </div>
 
+</div>
+
+<div id="pg2" class="pg">
+
   <div id="myProjects" style="margin-top: 2750px; text-align: center;">
     <p style="font-size: 40px;">SOME OF MY PROJECTS</p>
   </div>
@@ -179,7 +189,9 @@ them to finish their task.
      <img src="pics/foodmood.png" alt="Dhriti" width="900" height="500" style="margin-left:0px; margin-top: -30px;">
   </div>
 
+</div>
 
+<div id="pg4" class="pg">
   <div id="contactMe" style="margin-top: 5270px; text-align: center;">
     <p style="font-size: 40px;">CONTACT ME</p>
   </div>
@@ -249,6 +261,8 @@ them to finish their task.
 
 
   </div>
+</div>
+</div>
 
   <footer style="margin-top:6320px; align:center;">
   <p> &copy; Dhriti Chawla 2018</p>
@@ -296,10 +310,14 @@ window.smoothScroll = function(target) {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
         document.getElementById("myBtn").style.display = "block";
+        document.getElementById("navbar").style.top = "0";
+
     } else {
         document.getElementById("myBtn").style.display = "none";
+        document.getElementById("navbar").style.top = "-50px";
+
     }
 }
 
@@ -308,6 +326,24 @@ function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+function toggle(IDS) {
+  var sel = document.getElementById('pg').getElementsByTagName('div');
+  for (var i=0; i<sel.length; i++) {
+    if (sel[i].id != IDS)
+      { console.log("IDS is " + IDS);
+        sel[i].style.display = 'none'; }
+  }
+
+  var status = document.getElementById(IDS).style.display;
+  console.log("Isttssus " + status);
+  if (status == 'block') { document.getElementById(IDS).style.display = 'none'; }
+                    else { document.getElementById(IDS).style.display = 'block'; }
+
+  return false;
+}
+
+
 </script>
 
 </body>
