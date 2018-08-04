@@ -32,14 +32,16 @@ input {
 form {
     display:inline-block;
     border:8px solid white;
+    position: relative;
     /* width: 450px; */
     padding:50px 0;
     /* background: blue; */
 }
 
+
 #aboutMe1 {
   background-color: #000;
-  margin-left: 200px;
+  margin-left: 250px;
   /* border-bottom: 5px dotted rgb(0,0,0); */
   color: white;
   position: absolute;
@@ -50,9 +52,6 @@ form {
    height: 60px;
    position: absolute;
    left: 50%;
-   top: 50%;
-   margin-left: -450px;
-   margin-top: -30px;
    border-radius: 25px;
 
 }
@@ -60,7 +59,7 @@ form {
 #aboutMe2 {
 
   background-color: #000;
-  margin-left: 200px;
+  margin-left: 250px;
   /* border-bottom: 5px dotted rgb(0,0,0); */
   color: white;
   position: absolute;
@@ -71,9 +70,6 @@ form {
    height: 370px;
    position: absolute;
    left: 50%;
-   top: 50%;
-   margin-left: -450px;
-   margin-top: -185px;
    border-bottom: 5px dotted white;
 
 }
@@ -82,7 +78,7 @@ form {
 #exp {
 
   background-color: #000;
-  margin-left: 200px;
+  margin-left: 250px;
   /* border-bottom: 5px dotted rgb(0,0,0); */
   color: white;
   position: absolute;
@@ -93,9 +89,6 @@ form {
    height: 60px;
    position: absolute;
    left: 50%;
-   top: 50%;
-   margin-left: -450px;
-   margin-top: -30px;
    border-radius: 25px;
 
 }
@@ -103,6 +96,7 @@ form {
 #exp1 {
   background-color: #000;
   /* border-bottom: 5px dotted rgb(0,0,0); */
+  margin-left: 250px;
   color: white;
   position: absolute;
   align-self: center;
@@ -111,10 +105,6 @@ form {
   width: 440px;
    height: 310px;
    position: absolute;
-   left: 50%;
-   top: 50%;
-   margin-left: -450px;
-   margin-top: -155px;
    border-bottom: 5px dotted white;
 
 }
@@ -122,6 +112,8 @@ form {
 #exp2 {
   background-color: #000;
   /* border-bottom: 5px dotted rgb(0,0,0); */
+  margin-left: 700px;
+
   color: white;
   position: absolute;
   align-self: center;
@@ -130,10 +122,6 @@ form {
   width: 440px;
    height: 310px;
    position: absolute;
-   left: 50%;
-   top: 50%;
-   margin-left: 10px;
-   margin-top: -155px;
    border-bottom: 5px dotted white;
 
 }
@@ -142,6 +130,8 @@ form {
 
   background-color: #000;
   /* border-bottom: 5px dotted rgb(0,0,0); */
+  margin-left: 250px;
+
   color: white;
   position: absolute;
   text-align: left;
@@ -150,43 +140,17 @@ form {
   width: 900px;
    height: 60px;
    position: absolute;
-   left: 50%;
-   top: 50%;
-   margin-left: -450px;
-   margin-top: -30px;
    border-radius: 25px;
 
 }
-
-#mySkills1 {
-  margin:0 auto;
-  /* height: 700px; */
-  width: 850px;
-  background-color: #000;
-  margin-left: 200px;
-  /* border-bottom: 5px dotted rgb(0,0,0); */
-  color: white;
-  position: absolute;
-  align-self: center;
-  padding: 10px 0;
-
-  width: 900px;
-   height: 300px;
-   position: absolute;
-   left: 50%;
-   top: 50%;
-   margin-left: -450px;
-   margin-top: -150px;
-   border-bottom: 5px dotted white;
-
-}
-
 
 #myProjects {
 
   background-color: #000;
   /* border-bottom: 5px dotted rgb(0,0,0); */
   color: white;
+  margin-left: 250px;
+
   position: absolute;
   text-align: left;
   padding: 10px 0;
@@ -195,9 +159,6 @@ form {
    height: 60px;
    position: absolute;
    left: 50%;
-   top: 50%;
-   margin-left: -450px;
-   margin-top: -30px;
    border-radius: 25px;
 
 }
@@ -207,7 +168,7 @@ form {
   /* height: 700px; */
   width: 850px;
   background-color: #000;
-  margin-left: 200px;
+  margin-left: 250px;
   /* border-bottom: 5px dotted rgb(0,0,0); */
   color: white;
   position: absolute;
@@ -218,9 +179,6 @@ form {
    height: 700px;
    position: absolute;
    left: 50%;
-   top: 50%;
-   margin-left: -450px;
-   margin-top: -350px;
    border-bottom: 5px dotted white;
 
 }
@@ -230,7 +188,7 @@ form {
   /* height: 700px; */
   width: 850px;
   background-color: #000;
-  margin-left: 200px;
+  margin-left: 250px;
   /* border-bottom: 5px dotted rgb(0,0,0); */
   color: white;
   position: absolute;
@@ -241,17 +199,14 @@ form {
    height: 800px;
    position: absolute;
    left: 50%;
-   top: 50%;
-   margin-left: -450px;
-   margin-top: -400px;
    border-bottom: 5px dotted white;
 
 }
 
-#contactMe {
+#hobbies {
   margin:0 auto;
   /* height: 700px; */
-margin-left: 200px;
+  margin-left: 250px;
   width: 850px;
   background-color: #000;
   /* border-bottom: 5px dotted rgb(0,0,0); */
@@ -264,16 +219,51 @@ margin-left: 200px;
    height: 60px;
    position: absolute;
    left: 50%;
-   top: 50%;
-   margin-left: -450px;
-   margin-top: -30px;
+   border-radius: 25px;
+}
+
+#myhobbies {
+
+  background-color: #000;
+  /* border-bottom: 5px dotted rgb(0,0,0); */
+  color: white;
+  margin-left: 250px;
+
+  position: absolute;
+  text-align: left;
+  padding: 10px 0;
+
+  width: 900px;
+   height: 1850px;
+   position: absolute;
+   left: 50%;
+
+}
+
+
+#contactMe {
+  margin:0 auto;
+  /* height: 700px; */
+  margin-left: 250px;
+  width: 850px;
+  background-color: #000;
+  /* border-bottom: 5px dotted rgb(0,0,0); */
+  color: white;
+  position: absolute;
+  text-align: left;
+  padding: 10px 0;
+
+  width: 900px;
+   height: 60px;
+   position: absolute;
+   left: 50%;
    border-radius: 25px;
 }
 
 #contactMe2 {
 
   background-color: #000;
-  margin-left: 200px;
+  margin-left: 250px;
   /* border-bottom: 5px dotted rgb(0,0,0); */
   color: white;
   position: absolute;
@@ -283,17 +273,13 @@ margin-left: 200px;
   width: 900px;
    height: 500px;
    position: absolute;
-   left: 50%;
-   top: 50%;
-   margin-left: -450px;
-   margin-top: -250px;
    border-bottom: 5px dotted white;
 }
 
 #contactMe3 {
 
   background-color: #000;
-  margin-left: 200px;
+  margin-left: 250px;
   /* border-bottom: 5px dotted rgb(0,0,0); */
   color: white;
   position: absolute;
@@ -304,9 +290,6 @@ margin-left: 200px;
    height: 80px;
    position: absolute;
    left: 50%;
-   top: 50%;
-   margin-left: -450px;
-   margin-top: -40px;
    border-bottom: 5px dotted white;
 
 }
@@ -421,7 +404,9 @@ img {
     background-color: #555; /* Add a dark-grey background on hover */
 }
 
-.pg { display:none; }
+.pg { display:none;}
+
+#pg0 {display: block;}
 /*  */
 
 #navbar {
@@ -447,4 +432,15 @@ img {
 #navbar a:hover {
   background-color: #f1f1f1;
   color: black;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10;
+    text-align: center;
 }
