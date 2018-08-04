@@ -329,10 +329,17 @@ function topFunction() {
 
 function toggle(id) {
   var e = document.getElementById(id);
+
+  var i, tabcontent, tablinks;
+   tabcontent = document.getElementsByClassName("pg");
+   for (i = 0; i < tabcontent.length; i++) {
+       tabcontent[i].style.display = "none";
+   }
          if(e.style.display == 'block')
             e.style.display = 'none';
          else
             e.style.display = 'block';
+
 }
 
 
