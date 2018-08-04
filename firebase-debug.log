@@ -1,0 +1,41 @@
+[debug] [2018-08-04T04:38:02.599Z] ----------------------------------------------------------------------
+[debug] [2018-08-04T04:38:02.602Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --only hosting,public
+[debug] [2018-08-04T04:38:02.602Z] CLI Version:   4.0.2
+[debug] [2018-08-04T04:38:02.602Z] Platform:      darwin
+[debug] [2018-08-04T04:38:02.602Z] Node Version:  v8.11.3
+[debug] [2018-08-04T04:38:02.602Z] Time:          Sat Aug 04 2018 00:38:02 GMT-0400 (EDT)
+[debug] [2018-08-04T04:38:02.602Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-04T04:38:02.614Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-04T04:38:02.614Z] > authorizing via signed-in user
+[debug] [2018-08-04T04:38:02.616Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-04T04:38:02.616Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/o0BwNjtDWe9TMjW8vbTFok-RvpW2oivmGje_fWCGpyA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Aug 04 2018 00:38:02 GMT-0400 (EDT)
+[debug] [2018-08-04T04:38:03.006Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-04T04:38:03.025Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/dhritiswebsite  
+  
+ Sat Aug 04 2018 00:38:03 GMT-0400 (EDT)
+[debug] [2018-08-04T04:38:03.630Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-04T04:38:03.632Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/dhritiswebsite/tokens  
+  
+ Sat Aug 04 2018 00:38:03 GMT-0400 (EDT)
+[debug] [2018-08-04T04:38:04.246Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-04T04:38:04.247Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dhritiswebsite  
+  
+ Sat Aug 04 2018 00:38:04 GMT-0400 (EDT)
+[debug] [2018-08-04T04:38:04.655Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/dhritichawla/Desktop/DhritiWebsite'...
+[info] 
+[debug] [2018-08-04T04:38:04.658Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/937278020568/clients/_:getWebAppConfig  
+  
+ Sat Aug 04 2018 00:38:04 GMT-0400 (EDT)
+[debug] [2018-08-04T04:38:05.681Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
