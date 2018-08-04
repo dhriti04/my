@@ -39,7 +39,7 @@ form {
 }
 
 
-#aboutMe1 {
+#headingz {
   background-color: #000;
   margin-left: 250px;
   /* border-bottom: 5px dotted rgb(0,0,0); */
@@ -71,25 +71,6 @@ form {
    position: absolute;
    left: 50%;
    border-bottom: 5px dotted white;
-
-}
-
-
-#exp {
-
-  background-color: #000;
-  margin-left: 250px;
-  /* border-bottom: 5px dotted rgb(0,0,0); */
-  color: white;
-  position: absolute;
-  align-self: center;
-  padding: 10px 0;
-
-  width: 900px;
-   height: 60px;
-   position: absolute;
-   left: 50%;
-   border-radius: 25px;
 
 }
 
@@ -126,42 +107,6 @@ form {
 
 }
 
-#mySkills {
-
-  background-color: #000;
-  /* border-bottom: 5px dotted rgb(0,0,0); */
-  margin-left: 250px;
-
-  color: white;
-  position: absolute;
-  text-align: left;
-  padding: 10px 0;
-
-  width: 900px;
-   height: 60px;
-   position: absolute;
-   border-radius: 25px;
-
-}
-
-#myProjects {
-
-  background-color: #000;
-  /* border-bottom: 5px dotted rgb(0,0,0); */
-  color: white;
-  margin-left: 250px;
-
-  position: absolute;
-  text-align: left;
-  padding: 10px 0;
-
-  width: 900px;
-   height: 60px;
-   position: absolute;
-   left: 50%;
-   border-radius: 25px;
-
-}
 
 #myProjects1 {
   margin:0 auto;
@@ -203,24 +148,6 @@ form {
 
 }
 
-#hobbies {
-  margin:0 auto;
-  /* height: 700px; */
-  margin-left: 250px;
-  width: 850px;
-  background-color: #000;
-  /* border-bottom: 5px dotted rgb(0,0,0); */
-  color: white;
-  position: absolute;
-  text-align: left;
-  padding: 10px 0;
-
-  width: 900px;
-   height: 60px;
-   position: absolute;
-   left: 50%;
-   border-radius: 25px;
-}
 
 #myhobbies {
 
@@ -240,25 +167,6 @@ form {
 
 }
 
-
-#contactMe {
-  margin:0 auto;
-  /* height: 700px; */
-  margin-left: 250px;
-  width: 850px;
-  background-color: #000;
-  /* border-bottom: 5px dotted rgb(0,0,0); */
-  color: white;
-  position: absolute;
-  text-align: left;
-  padding: 10px 0;
-
-  width: 900px;
-   height: 60px;
-   position: absolute;
-   left: 50%;
-   border-radius: 25px;
-}
 
 #contactMe2 {
 
