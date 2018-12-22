@@ -8,6 +8,7 @@ body {
   background-color:#FAEBEF;
   font-family: 'Alegreya Sans', sans-serif;
   /* background-size:cover; */
+  font-weight: bold;
 }
 
 #Header {
@@ -15,7 +16,7 @@ body {
   height: 100%;
   background-color: #FFFFFF;
   border-bottom: 5px dotted rgb(0,0,0);
-
+  font-weight: normal;
   min-height: 800px;
   position: absolute;
   left: 0px;
@@ -65,7 +66,7 @@ form {
   position: absolute;
   align-self: center;
   padding: 10px 0;
-
+  font-weight: normal;
   width: 900px;
    height: 370px;
    position: absolute;
@@ -82,6 +83,7 @@ form {
   position: absolute;
   align-self: center;
   padding: 10px 0;
+  font-weight: bold;
 
   width: 440px;
    height: 310px;
@@ -94,7 +96,7 @@ form {
   background-color: #000;
   /* border-bottom: 5px dotted rgb(0,0,0); */
   margin-left: 700px;
-
+  font-weight: bold;
   color: white;
   position: absolute;
   align-self: center;
