@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Dhriti Chawla</title>
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100" rel="stylesheet">
@@ -15,7 +16,7 @@
   <link rel="apple-touch-icon" sizes="144x144" href="pics/apple-icon-144x144.png">
   <link rel="apple-touch-icon" sizes="152x152" href="pics/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="pics/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="pics/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="pics/android-icon-192x192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="pics/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="pics/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="pics/favicon-16x16.png">
@@ -32,398 +33,432 @@
     <a href="#experience" onclick="return toggle('pg1')">Experience</a>
     <a href="#projects" onclick="return toggle('pg2')">Projects</a>
     <a href="#hobbies" onclick="return toggle('pg3')">Hobbies</a>
-    <a href="#contact" onclick="return toggle('pg4')">Contact me</a>
+    <a href="#contact" onclick="return toggle('pg4')">Designs</a>
   </div>
 
-<div id="Header">
-  <p style="font-size: 100px; margin-top: 270px; font-weight: normal;">DHRITI CHAWLA</p>
-</div>
-
-
-<form method="post" id="test" onsubmit="return false;">
-
-  <input type="button" id="myBtn" title="Go to top" value="top" onclick="smoothScroll(document.getElementById('myBtn'))">
-
-<div id="pg">
-<div id='pg0' class="pg">
-  <div id="headingz" style="margin-top: 790px;  text-align: center;">
-    <p style="font-size: 40px;margin-left: 40px;">ABOUT ME</p>
-  </div>
-
-  <div id="aboutMe2" style="margin-top: 880px; margin-bottom: 60px;">
-    <p>  <br><img src="pics/me.jpg" alt="Dhriti's picture" width="220" height="310" align="left" style=" margin-left:20px; border: 2px solid white;" />
-    <p style="font-size: 30px;margin-left: 280px; margin-top: 20px;">Hi, I'm <b>Dhriti</b>!</p>
-    <p style="font-size: 25px;margin-left: 280px; margin-right: 30px;">I'm a rising junior at <b>Purdue University</b>,
-      studying <b>Computer Science</b> with a concentration
-      in <b>Software Engineering</b> along with a <b>Mathematics</b> minor.
-      I love developing, designing and learning new skills.</p>
-
-      <input type="button"  style="margin-top: 90px;margin-left: 40px;" value="View Resume" onClick="window.open('pics/Resume.pdf');">
-    </p>
-  </div>
-</div>
-
-<div id='pg1' class="pg">
-
-  <div id="headingz" style="margin-top: 790px; text-align: center;">
-    <p style="font-size: 40px;">EXPERIENCE</p>
-  </div>
-
-  <div id="exp1" style="margin-top: 880px;">
-    <p style="font-size: 40px;margin-left: 20px; margin-top: 20px;">Incoming Android Engineering Intern</p>
-    <p style="font-size: 30px;margin-left: 20px;">Quizlet</p>
-    <p style="font-size: 20px;margin-left: 20px; color: #EEB5C4;">May - Aug 2019</p>
-
-
+  <div id="header">
+    <p style="font-size: 14em; margin-top: 16vh; font-weight: normal; display: flex;"> DHRITI CHAWLA</p>
   </div>
 
 
-  <div id="exp2" style="margin-top: 880px;">
+  <form method="post" id="test" onsubmit="return false;">
+    <input type="button" id="myBtn" title="Go to top" value="top" onclick="smoothScroll(document.getElementById('myBtn'))">
+    <div id="pg">
+      <div id='pg0' class="pg">
+        <div class="heading">
+          <p style="font-size: 3em; ">ABOUT ME</p>
+        </div>
 
-    <p style="font-size: 30px;margin-left: 20px; margin-top: 20px;">Internal Relations Officer</p>
-    <p style="font-size: 20px;margin-left: 20px;">Ms. Tech, Purdue Collective</p>
-    <p style="font-size: 20px;margin-left: 20px; color: #EEB5C4;">Aug 2018 - Jan 2019</p>
-    <p style="font-size: 18px;margin:20px;">As an internal relations officer, it is my duty
-      to ensure that our organization's meetings and events run smoothly, also, the rest of <thead>
-        officers and members are always informed and updated within the organization.
-      </thead>.
+        <div id="aboutMe">
+          <br><img src="pics/me.jpg" alt="Dhriti's picture" width="220" height="310" align="left" id="dhritiPic" />
+          <p style="font-size: 2em; margin: 30px;">Hi, I'm Dhriti!</p>
+          <p style="font-size: 1.75em; margin: 30px;">I'm a recent graduate from Purdue University with a Bachelor's of Science in Computer Science in a Software Engineering track.
+            I love developing, designing and learning new skills.</p>
 
-    </p>
-  </div>
+          <input type="button" style="margin: 40px;" value="View Resume" onClick="window.open('pics/Resume.pdf');">
 
-  <div id="exp1" style="margin-top: 1200px;">
-    <p style="font-size: 30px;margin-left: 20px; margin-top: 20px;">Facebook University, Android TA</p>
-    <p style="font-size: 20px;margin-left: 20px;">CodePath</p>
-    <p style="font-size: 20px;margin-left: 20px; color: #EEB5C4;">June - July 2018</p>
-    <p style="font-size: 18px;margin:20px;"> Opportunity to be at Facebook's headquarter in Menlo Park at their summer internship program,
-      as a Teaching Assistant for freshmen & sophomores from top colleges; I provided mentorship and in-class technical support to students
-      in a class of sixty. As a TA, I had to lead discussions, answer questions and clarify doubts.
-    </p>
+                
+        </div>
+        <div id="contactMeIcons">
 
-  </div>
+                 <a href="mailto:chawla5@purdue.edu" style="color: black;">
+                   <img src="pics/mail.png" alt="mail" style="height:45px;border:0px;">
+                 </a>
 
+                 <a href="https://github.com/dhriti04/" style="color: black;">
+                   <img src="pics/github.png" alt="github" style="height:40px;border:0px;">
+                 </a>
 
-  <div id="exp2" style="margin-top: 1200px;">
+                 <a href="https://www.facebook.com/dhritichawla" style="color: black;">
+                   <img src="pics/fb.png" alt="facebook" style="height:40px;border:0px;">
+                 </a>
 
-    <p style="font-size: 30px;margin-left: 20px; margin-top: 20px;">Undergraduate Teaching Assistant</p>
-    <p style="font-size: 20px;margin-left: 20px;">CS 177: Programming with Python</p>
-    <p style="font-size: 20px;margin-left: 20px; color: #EEB5C4;">Aug 2017 - present</p>
-    <p style="font-size: 18px;margin:20px;">As the Lead TA for my lab, my duties include leading lab sessions,
-      ensure timely grading of assignments and assisting students during lab and help sessions.</p>
-  </div>
+                 <a href="https://twitter.com/DhritiChawla" style="color: black;">
+                   <img src="pics/twitter.png" alt="twitter" style="height:40px;border:0px;">
+                 </a>
 
-  <div id="exp1" style="margin-top: 1520px;">
+                 <a href="https://www.linkedin.com/in/dhritichawla/" style="color: black;">
+                   <img src="pics/li.png" alt="linkedin" style="height:40px;border:0px;">
+                 </a>
 
-    <p style="font-size: 30px;margin-left: 20px; margin-top: 20px;">Secretary</p>
-    <p style="font-size: 20px;margin-left: 20px;">Computer Science Women’s Network</p>
-    <p style="font-size: 20px;margin-left: 20px; color:#EEB5C4;">May 2018 - present</p>
-    <p style="font-size: 18px;margin:20px;">Founded in 1999, CSWN is a student led organization at Purdue University
-      dedicated to helping women in the Computer Science field. As a secretary, duties include: complete meeting minutes
-      during every meeting and ensure that those responsible for that specific task are tagged.
-      Organize tasks in drive and ensure documents are well in order and labeled correctly.
- </p>
+                 <a href="https://www.instagram.com/dhritix/" style="color: black;">
+                   <img src="pics/insta.png" alt="instagram" style="height:45px;border:0px;">
+                 </a>
 
+               </div>
+      </div>
 
-  </div>
+      <div id='pg1' class="pg">
 
-  <div id="exp2" style="margin-top: 1520px;">
+        <div class="heading" style="margin-bottom:30px">
+          <p style="font-size: 3em;">EXPERIENCE</p>
+        </div>
 
-    <p style="font-size: 30px;margin-left: 20px; margin-top: 20px;">Corporate Liaison</p>
-    <p style="font-size: 20px;margin-left: 20px;">Computer Science Women’s Network</p>
-    <p style="font-size: 20px;margin-left: 20px; color: #EEB5C4;">May 2017 - April 2018</p>
-
- <p style="font-size: 18px;margin: 20px;">The organization seeks to promote an environment which will
-    increase overall performance in computer science as a whole, with special emphasis placed on issues dealing with women and strengthening
-    relationships among computer scientists. As a CL, I was in direct and constant contact with recruiters of companies to discuss prospective events
-    and partnerships with CSWN.
-</p>
-
-
-
-  </div>
-
-  <div id="exp1" style="margin-top: 1840px; ">
-
-    <p style="font-size: 30px;margin-left: 20px; margin-top: 20px;">Summer Intern</p>
-    <p style="font-size: 20px;margin-left: 20px;">Ernst & Young</p>
-    <p style="font-size: 20px;margin-left: 20px; color: #EEB5C4;">July - Aug 2017</p>
-    <p style="font-size: 18px;margin: 20px;">For my first real internship ever, I worked with the auditing team at Ernst & Young and analyzed electricity and diesel expenses
-    across locations for our clients to identify potential cost saving opportunities.</p>
-
-  </div>
-
-  <div id="headingz" style="margin-top: 2200px; text-align: center;">
-    <p style="font-size: 40px;">SKILLS</p> <br>
-    <p style="font-size: 20px;margin:20px; color: white;">
-      <span>HTML</span> . <span>CSS</span> . <span>JAVA</span> . <span>C++</span> .
-      <span>C</span> . <span>Python</span> . <span>ARM Assembly</span> . <span>SQL</span> . <br><br><br>
-      <span>Swift</span> . <span>iOS Development</span> . <span >Android Development</span> . <span>Illustrator</span>
-    </p>
-    <p> <br> <br> </p>
-  </div>
-
-</div>
-
-<div id="pg2" class="pg">
-
-  <div id="headingz" style="margin-top: 790px; text-align: center;">
-    <p style="font-size: 40px;">SOME OF MY PROJECTS</p>
-  </div>
-
-  <div id="myProjects1" style="margin-top: 880px;">
-    <p style="font-size: 30px;margin-left: 20px; margin-top: 20px; color: black; background-color:#ffffff;margin-right:20px;">GraduatR</p>
-      <ul style="font-size: 20px;margin: 40px;margin-top:6px;"> <li> graduatR is an iOS application for
-      Purdue Students that provides them with a personalized profile, access to a list of courses, professors and its elaborate rating system,
-      a marketplace for book exchange, a list of on-campus events and a social media outlet for communication with other students all
-       in one location. <br>
-    <li>Check out the github at: <a href="https://github.com/dhriti04/graduatr">graduatR</a>
-    </ul>
-       <img src="pics/grad.png" alt="Dhriti" width="850" height="500" style="margin-left:30px; margin-top: -30px;">
-  </div>
-
-  <div id="myProjects2" style="margin-top: 1620px;">
-    <p style="font-size: 30px;margin-left: 20px; margin-top: 20px; color: black; background-color:#ffffff;margin-right:20px;">R3mind.me</p>
-
-      <ul style="font-size: 20px;margin: 40px;margin-top:6px;"> <li>A web application which lets users set a reminder for various events.
-The users get a text/call(based on their preference) before their events.
-The users also have a dock to see all their upcoming tasks with a live countdown to motivate
-them to finish their task.
-<li> The website is <a href="https://r3mind-me.firebaseapp.com/#"> right here</a>
-<li> Check out the github at: <a href="https://github.com/dhriti04/r3mind.me">r3mind.me</a>
-</ul>
+        <div class="row">
+          <div class="column">
+            <h1>Incoming Software Engineer - Android</h1>
+            <h2>Yelp, Inc.</h2>
+            <h3 style="color: #EEB5C4;">Aug 2020</h3>
+            <p></p>
+          </div>
+          <div class="column">
+            <h1>Software Engineering Intern - Android</h1>
+            <h2>Quizlet</h2>
+            <h3 style="color: #EEB5C4;">May 2019 - Aug 2019</h3>
+            <p> Developed a new mobile experience utilizing Android’s native speech-to-text to answer different prompts throughout the study session. Worked mainly with Java and Kotlin on Android Studio using Quizlet’s already existing codebase &
+              helped team make progress towards key results, while effectively communicating challenges.</p>
+          </div>
 
 
-<img src="pics/r4.png" alt="Login Screen" width="400" height="250" style="margin-left:30px; margin-top: -10px;" class="image">
-<img src="pics/r3.png" alt="Main screen" width="400" height="250" style="margin-left:30px; margin-top: -10px;" class="image">
-<img src="pics/r1.png" alt="Task table" width="400" height="250" style="margin-left:30px; margin-top: 20px;" class="image">
-<img src="pics/r2.png" alt="Add new task" width="400" height="250" style="margin-left:30px; margin-top: 20px;" class="image">
-  </div>
+          <div class="column">
+            <h1>Android Teaching Assistant, Facebook University</h1>
+            <h2>CodePath</h2>
+            <h3 style="color: #EEB5C4;">May - July 2018</h3>
+            <p>Opportunity to be at Facebook's headquarters in Menlo Park at their summer internship program,
+              as a Teaching Assistant for freshmen & sophomores from top colleges; I provided mentorship and in-class technical support to students in a class of sixty. As a TA, I had to lead discussions, answer questions and clarify doubts.</p>
+          </div>
 
-  <div id="myProjects1" style="margin-top: 2450px; margin-bottom: 60px">
-    <p style="font-size: 30px;margin-left: 20px; margin-top: 20px; color: black; background-color:#ffffff;margin-right:20px;">FoodMood</p>
-    <ul style="font-size: 20px;margin: 40px;margin-top:6px;"> <li> FoodMood is an iOS app, that helps people
-       find recipes based on ingredients they input. Users can also share photos along with recipes, view
-       other user's photo uploads in a collection view format as well as search nearby restaurants.<br>
-  <li>Check out the github at: <a href="https://github.com/iOS490GroupProject/iOS490GroupProject">food-mood</a>
-  </ul>
-     <img src="pics/foodmood.png" alt="Dhriti" width="900" height="500" style="margin-left:0px; margin-top: -30px;">
-  </div>
-
-  <div id="myProjects1" style="margin-top: 3190px; margin-bottom: 60px">
-    <p style="font-size: 30px;margin-left: 20px; margin-top: 20px; color: black; background-color:#ffffff;margin-right:20px;">CodePath's Android Apps</p>
-    <ul style="font-size: 20px;margin: 40px;margin-top:6px;"> <li> Worked on various android labs and assignments written in JAVA
-      using Android Studio, multiple APIs, Parse and CodePath's beautiful templates for these apps. I completed the project for
-      <a href="https://www.codepath.com">CodePath</a>'s training program.
-      Apps include <a href="https://github.com/dhriti04/ToDoApp">ToDoApp </a>,
-      <a href="https://github.com/dhriti04/Flixster">Flixster</a>,
-      <a href="https://github.com/dhriti04/Dhrwitter">Dhrwitter</a>,
-      <a href="https://github.com/dhriti04/SimpleChat">SimpleChat</a> and
-      <a href="https://github.com/dhriti04/Parsetagram">Parsetagram</a>.  <br> <br>
-      <li> The github for each can be found by clicking on the particular project above.
-  </ul>
-     <img src="pics/AndrApps.jpg" alt="Android Apps" width="860" height="370" style="margin-left:20px; margin-top: 0px;">
-  </div>
-
-  <div id="myProjects1" style="margin-top: 3920px; margin-bottom: 60px">
-    <p style="font-size: 30px;margin-left: 20px; margin-top: 20px; color: black; background-color:#ffffff;margin-right:20px;">CodePath's iOS Apps</p>
-    <ul style="font-size: 20px;margin: 40px;margin-top:6px;"> <li> Worked on various iOS labs and assignments written in Swift
-      using Xcode, CocoaPods, multiple APIs, Parse for
-      <a href="https://www.codepath.com">CodePath</a>'s iOS program.
-      Apps include <a href="https://github.com/dhriti04/ToDoApp">Yelp </a>,
-      <a href="https://github.com/dhriti04/Tippy">Tippy</a>,
-      <a href="https://github.com/dhriti04/Tumblr">Tumblr</a>,
-      <a href="https://github.com/dhriti04/Twitter">Twitter</a>,
-      <a href="https://github.com/dhriti04/Flix">Flix</a>,
-      <a href="https://github.com/dhriti04/PhotoMap">PhotoMap</a>,
-      <a href="https://github.com/dhriti04/Tinder">Tinder</a>,
-      <a href="https://github.com/dhriti04/ParseChat">ParseChat</a> and
-      <a href="https://github.com/dhriti04/Instagram">Instatagram</a>.  <br>
-      <li> The github for each can be found by clicking on the particular project above.
-  </ul>
-     <img src="pics/iOSapps.jpg" alt="iOS apps collage" width="860" height="420" style="margin-left:20px; margin-top: -5px;">
-  </div>
-
-</div>
-
-<div id="pg3" class="pg">
-  <div id="headingz" style="margin-top: 790px; text-align: center;">
-    <p style="font-size: 40px;">MY PHOTOGRAPHY</p>
-  </div>
-
-  <div id="myhobbies" style="margin-top: 880px; margin-bottom: 40px">
-     <img src="pics/photos/IMG_1345.JPG" alt="Brickell Avenue" width="400" height="250" style="margin-left:30px; margin-top: 30px;">
-     <img src="pics/photos/IMG_1350.JPG" alt="Brickell Avenue" width="400" height="250" style="margin-left:30px; margin-top: 30px;" class="image">
-     <img src="pics/photos/IMG_1351.JPG" alt="Palm trees at Brickell" width="830" height="520" style="margin-left:30px; margin-top: 30px;" class="image">
-     <img src="pics/photos/IMG_1516-1.JPG" alt="Umbrellas street at Coral Gables" width="380" height="570" style="margin-left:30px; margin-top: 30px;" class="image">
-     <img src="pics/photos/IMG_1526.JPG" alt="South Beach miami" width="420" height="570" style="margin-left:30px; margin-top: 30px;" class="image">
-     <img src="pics/photos/IMG_1425.jpeg" alt="South Beach Miami" width="830" height="320" style="margin-left:30px; margin-top: 30px;" class="image">
-     <img src="pics/photos/FullSizeRender.jpeg" alt="Hialeah" width="400" height="630" style="margin-left:30px; margin-top: 30px;" class="image">
-     <img src="pics/photos/FullSizeRender-2.jpeg" alt="Lake tahoe" width="400" height="630" style="margin-left:30px; margin-top: 30px;" class="image">
-     <img src="pics/photos/FullSizeRender-4.jpeg" alt="Bayside marketplace" width="300" height="300" style="margin-left:30px; margin-top: 30px;" class="image">
-     <img src="pics/photos/FullSizeRender-5.jpeg" alt="Hialeah" width="500" height="300" style="margin-left:30px; margin-top: 30px;" class="image">
-     <img src="pics/photos/FullSizeRender-1.jpeg" alt="Clouds in Miami" width="400" height="250" style="margin-left:30px; margin-top: 30px;" class="image">
-     <img src="pics/photos/FullSizeRender-3.jpeg" alt="Indian Seats trail in Georgia" width="400" height="250" style="margin-left:30px; margin-top: 30px;" class="image">
-     <img src="pics/photos/FullSizeRender-6.jpeg" alt="Coral Gables" width="830" height="520" style="margin-left:30px; margin-top: 30px;" class="image">
+          <div class="column">
+            <h1>Undergraduate Teaching Assistant</h1>
+            <h2>CS 180: Object Oriented Programming, Purdue University</h2>
+            <h3 style="color: #EEB5C4;">Aug 2019 - Dec 2019</h3>
+            <p>CS 180 at Purdue teaches students Java and the fundamentals of OOP. Assisting students with their course material, in-lab assignments and projects in Java. Overseeing and mentoring students during lab sessions and additional help
+              hours. </p>
+          </div>
+          <div class="column">
+            <h1>Undergraduate Teaching Assistant</h1>
+            <h2>CS 177: Programming with Python, Purdue University</h2>
+            <h3 style="color: #EEB5C4;">Aug 2017 - May 2020</h3>
+            <p>As the Lead TA for my lab, my duties include leading lab sessions,
+              ensure timely grading of assignments and assisting students during lab and help sessions.</p>
+          </div>
 
 
-  </div>
+          <div class="column">
+            <h2>Computer Science Women’s Network</h2>
+            <h1>Corporate Liaison</h1>
+            <h3 style="color: #EEB5C4;">May 2019 - Apr 2020</h3>
+            <h1>Secretary</h1>
+            <h3 style="color: #EEB5C4;">May 2018 - Apr 2019</h3>
+            <h1>Corporate Liaison</h1>
 
-</div>
+            <h3 style="color: #EEB5C4;">May 2017 - Apr 2018</h3>
+            <p>CSWN seeks to promote an environment which will increase overall performance in computer science as a whole, with special emphasis placed on issues dealing with women and strengthening relationships among computer scientists. As a
+              Corporate Liaison, I was in direct and constant contact with recruiters of companies to discuss prospective events and partnerships with CSWN.</p>
+          </div>
+          <div class="column">
+            <h1>Internal Relations Officer</h1>
+            <h2>Ms. Tech, Purdue Collective</h2>
+            <h3 style="color: #EEB5C4;">Aug 2018 - Dec 2018</h3>
+            <p>As an internal relations officer, it is my duty
+              to ensure that our organization's meetings and events run smoothly, also, the rest of <thead>
+                officers and members are always informed and updated within the organization.
+              </thead>
+            </p>
+          </div>
+          <div class="column">
+            <h1>Summer Intern</h1>
+            <h2>Ernst & Young</h2>
+            <h3 style="color: #EEB5C4;">July - Aug 2017</h3>
+            <p>For my first real internship ever, I worked with the auditing team at Ernst & Young and analyzed electricity and diesel expenses
+              across locations for our clients to identify potential cost saving opportunities.</p>
+          </div>
+        </div>
+
+        <div class="heading" style="text-align: center; margin-top: 80px; margin-bottom:30px">
+          <p style="font-size: 3em;">SKILLS</p> <br>
+        </div>
+        <div style="margin-left:28%;width:50%; align:center">
+          <p style="font-size: 1em;margin:20px; color: white;">
+            <span class="a">HTML</span> .
+            <span class="a">CSS</span> .
+            <span class="a">JAVA</span> .
+            <span class="a">Kotliin</span> .
+            <span class="a">C++</span> .
+            <span class="a">C</span> .
+            <span class="a">Python</span> .
+            <span class="a">SQL</span> .
+            <span class="a">Swift</span> .
+            <span class="a">iOS Development</span> .
+            <span class="a">Android Development</span> .
+            <span class="a">Javascript</span> .
+            <span class="a">React JS</span>
+          </p>
+        </div>
+        <p> <br> <br> </p>
+      </div>
+
+      <div id="pg2" class="pg">
+
+        <div class="heading" style="margin-bottom:20px;">
+          <p style="font-size: 3em;">SOME OF MY PROJECTS</p>
+        </div>
+        <div class="row">
+
+          <div class="column">
+            <p style="font-size: 2em;margin: 20px; color: black; background-color:#ffffff;">Get Me Tipsy</p>
+            <ul style="font-size: 1.25em;margin: 40px;margin-top:6px;">
+              <li> Get Me Tipsy is an online drinking game. We used React JS and material UI to develop the app. The website is hosted on Firebase.
+              <li>Check out the website at: <a href="https://getmetipsy.io">getmetipsy.io</a>
+            </ul>
+          </div>
+          <div class="column">
+            <p style="font-size: 2em;margin: 20px; color: black; background-color:#ffffff;">Getaway</p>
+            <ul style="font-size: 1.25em;margin: 40px;margin-top:6px;">
+              <li> Getaway is iOS application that helps travelers connect with users who have already visited places with the help of a map. We used Swift with the help of XCode and Firebase to develop the app.
+              <li>Check out the github at: <a href="https://github.com/aldiongudjiharto/CS40800">Getaway</a>
+            </ul>
+          </div>
+          <div class="column">
+            <p style="font-size: 2em;margin: 20px; color: black; background-color:#ffffff;">GraduatR</p>
+            <ul style="font-size: 1.25em;margin: 40px;margin-top:6px;">
+              <li> graduatR is an iOS application for
+                Purdue Students that provides them with a personalized profile, access to a list of courses, professors and its elaborate rating system,
+                a marketplace for book exchange, a list of on-campus events and a social media outlet for communication with other students all
+                in one location.
+              <li>Check out the github at: <a href="https://github.com/dhriti04/graduatr">graduatR</a>
+            </ul>
+            <img src="pics/grad.png" alt="Graduatr" width="90%" style="margin-left: 5%; margin-top: -30px;">
+          </div>
+          <div class="column">
+            <p style="font-size: 2em;margin: 20px; color: black; background-color:#ffffff;">R3mind.me</p>
+            <ul style="font-size: 1.25em;margin: 40px;margin-top:6px;">
+              <li>A web application which lets users set a reminder for various events.
+                The users get a text/call(based on their preference) before their events.
+                The users also have a dock to see all their upcoming tasks with a live countdown to motivate
+                them to finish their task.
+              <li> The website is <a href="https://r3mind-me.firebaseapp.com/#"> right here</a>
+              <li> Check out the github at: <a href="https://github.com/dhriti04/r3mind.me">r3mind.me</a>
+            </ul>
+            <img src="pics/r4.png" alt="Login Screen" width="40%" style="margin-left: 8%; margin-top: -10px;" class="image">
+            <img src="pics/r3.png" alt="Main screen" width="40%" style="margin-left: 4%; margin-top: -10px;" class="image">
+            <img src="pics/r1.png" alt="Task table" width="40%" style="margin-left: 8%; margin-top: 20px;" class="image">
+            <img src="pics/r2.png" alt="Add new task" width="40%" style="margin-left: 4%;margin-top: 20px;" class="image">
+          </div>
+          <div class="column">
+            <p style="font-size: 2em;margin: 20px; color: black; background-color:#ffffff;">FoodMood</p>
+            <ul style="font-size: 1.25em;margin: 40px;margin-top:6px;">
+              <li> FoodMood is an iOS app, that helps people
+                find recipes based on ingredients they input. Users can also share photos along with recipes, view
+                other user's photo uploads in a collection view format as well as search nearby restaurants.<br>
+              <li>Check out the github at: <a href="https://github.com/iOS490GroupProject/iOS490GroupProject">food-mood</a>
+            </ul>
+            <img src="pics/foodmood.png" alt="Dhriti" width="90%" style="margin-left: 5%; margin-top: -30px;">
+          </div>
+          <div class="column">
+            <p style="font-size: 2em;margin: 20px; color: black; background-color:#ffffff;">CodePath's Android Apps</p>
+            <ul style="font-size: 1.25em;margin: 40px;margin-top:6px;">
+              <li> Worked on various android labs and assignments written in JAVA
+                using Android Studio, multiple APIs, Parse and CodePath's beautiful templates for these apps. I completed the project for
+                <a href="https://www.codepath.com">CodePath</a>'s training program.
+                Apps include <a href="https://github.com/dhriti04/ToDoApp">ToDoApp </a>,
+                <a href="https://github.com/dhriti04/Flixster">Flixster</a>,
+                <a href="https://github.com/dhriti04/Dhrwitter">Dhrwitter</a>,
+                <a href="https://github.com/dhriti04/SimpleChat">SimpleChat</a> and
+                <a href="https://github.com/dhriti04/Parsetagram">Parsetagram</a>. <br> <br>
+              <li> The github for each can be found by clicking on the particular project above.
+            </ul>
+            <img src="pics/AndrApps.jpg" alt="Android Apps" width="90%" style="margin-left: 5%; margin-top: 0px;">
+          </div>
+          <div class="column">
+            <p style="font-size: 2em;margin: 20px; color: black; background-color:#ffffff;">CodePath's iOS Apps</p>
+            <ul style="font-size: 1.25em;margin: 40px;margin-top:6px;">
+              <li> Worked on various iOS labs and assignments written in Swift
+                using Xcode, CocoaPods, multiple APIs, Parse for
+                <a href="https://www.codepath.com">CodePath</a>'s iOS program.
+                Apps include <a href="https://github.com/dhriti04/ToDoApp">Yelp </a>,
+                <a href="https://github.com/dhriti04/Tippy">Tippy</a>,
+                <a href="https://github.com/dhriti04/Tumblr">Tumblr</a>,
+                <a href="https://github.com/dhriti04/Twitter">Twitter</a>,
+                <a href="https://github.com/dhriti04/Flix">Flix</a>,
+                <a href="https://github.com/dhriti04/PhotoMap">PhotoMap</a>,
+                <a href="https://github.com/dhriti04/Tinder">Tinder</a>,
+                <a href="https://github.com/dhriti04/ParseChat">ParseChat</a> and
+                <a href="https://github.com/dhriti04/Instagram">Instatagram</a>. <br>
+              <li> The github for each can be found by clicking on the particular project above.
+            </ul>
+            <img src="pics/iOSapps.jpg" alt="iOS apps collage" width="90%" style="margin-left: 5%; margin-top: -5px;">
+          </div>
+        </div>
+      </div>
+
+      <div id="pg3" class="pg">
+        <div class="heading" style="margin-bottom:20px">
+          <p style="font-size: 3em;">MY PHOTOGRAPHY</p>
+        </div>
+
+        <section id="photos">
+          <img src="pics/photos/IMG_0521.JPG" alt="Rainbow">
+          <img src="pics/photos/IMG_1757.JPG" alt="Dock">
+          <img src="pics/photos/IMG_2346.JPG" alt="Flags">
+          <img src="pics/photos/IMG_5449.JPG" alt="China Town">
+          <img src="pics/photos/IMG_5460.JPG" alt="SF Sky">
+          <img src="pics/photos/IMG_5490.JPG" alt="Green stairs">
+          <img src="pics/photos/IMG_6903.JPG" alt="Bridge">
+          <img src="pics/photos/11920ABE-240C-4D76-84EF-3E6A9FE1EB2D.JPG" alt="Japanese Garden">
+          <img src="pics/photos/EC376833-3B5A-4D42-97BA-1F29F57A1236.JPG" alt="Sunflowers">
+          <img src="pics/photos/IMG_0998.JPG" alt="Ocean">
+          <img src="pics/photos/IMG_1345.JPG" alt="Brickell Avenue">
+          <img src="pics/photos/IMG_1351.JPG" alt="Palm trees at Brickell">
+          <img src="pics/photos/IMG_1350.JPG" alt="Brickell Avenue">
+          <img src="pics/photos/IMG_1516-1.JPG" alt="Umbrellas street at Coral Gables">
+          <img src="pics/photos/IMG_9326.JPG" alt="Bridge">
+          <img src="pics/photos/IMG_1526.JPG" alt="South Beach miami">
+          <img src="pics/photos/IMG_1425.jpeg" alt="South Beach Miami">
+          <img src="pics/photos/FullSizeRender.jpeg" alt="Hialeah">
+          <img src="pics/photos/IMG_9962.JPG" alt="Bridge">
+          <img src="pics/photos/IMG_7059.JPG" alt="Bridge">
+          <img src="pics/photos/FullSizeRender-2.jpeg" alt="Lake tahoe">
+          <img src="pics/photos/FullSizeRender-4.jpeg" alt="Bayside marketplace">
+          <img src="pics/photos/FullSizeRender-5.jpeg" alt="Hialeah">
+          <img src="pics/photos/FullSizeRender-1.jpeg" alt="Clouds in Miami">
+          <img src="pics/photos/FullSizeRender-3.jpeg" alt="Indian Seats trail in Georgia">
+          <img src="pics/photos/FullSizeRender-6.jpeg" alt="Coral Gables">
+        </section>
+      </div>
+      
+
+      <div id="pg4" class="pg">
+          <div class="heading">
+              <p style="font-size: 3em;">MY DESIGNS</p>
+          </div>
+          <div class="row">
+
+                   <div class="column">
+                     <p style="font-size: 2em;margin: 20px; color: black; background-color:#ffffff;">Business cards</p>
+                            <section id="designs">
+                                <img src="pics/designs/bcard1.png" alt="bcard1">
+                                <img src="pics/designs/bcard3.png" alt="bcard3">
+                                <img src="pics/designs/bcard4.png" alt="bcard4">
+                                <img src="pics/designs/bcard2.png" alt="bcard2">
+                            </section>
+                   </div>
+                   <div class="column">
+                              <p style="font-size: 2em;margin: 20px; color: black; background-color:#ffffff;">General doodles</p>
+                                <section id="designs">
+                                    <img src="pics/designs/art1.png" alt="remindMeLogo">
+                                    <img src="pics/designs/art2.png" alt="ucsLogo">
+                                    <img src="pics/designs/art3.png" alt="ucsLogo2">
+                                    <img src="pics/designs/pumpkin.png" alt="greenLogo2">
+                                    <img src="pics/designs/melon.png" alt="greenLogo2">
+                                    <img src="pics/designs/pine.png" alt="greenLogo2">
+                            
+                                </section>
+                            </div>
+                   <div class="column">
+                                                <p style="font-size: 2em;margin: 20px; color: black; background-color:#ffffff;">Game design cards</p>
+                                                  <section id="designs">
+                                                      <img src="pics/designs/deckNotSoPG13.png" alt="greenLogo">
+                                                      <img src="pics/designs/deckPG13.png" alt="greenLogo2">
+                                                      <img src="pics/designs/deckOriginal.png" alt="greenLogo2">
+                                                      <img src="pics/designs/deckSocialDistance.png" alt="greenLogo2">
+                                                      <img src="pics/designs/deckWorkBuddies.png" alt="greenLogo2">
+                                                      <img src="pics/designs/deckBirthday.png" alt="greenLogo2">
+                                                      <img src="pics/designs/deckGirlsNight.png" alt="greenLogo2">
+                                                      <img src="pics/designs/deckBoysNight.png" alt="greenLogo2">
+                                              
+                                                  </section>
+                                              </div>
+                   
+                   <div class="column">
+                     <p style="font-size: 2em;margin: 20px; color: black; background-color:#ffffff;">Logos</p>
+                     <section id="designs">
+                            <img src="pics/designs/remindMeLogo.png" alt="remindMeLogo">
+                            <img src="pics/designs/ucsLogo.png" alt="ucsLogo">
+                            <img src="pics/designs/ucsLogo2.png" alt="ucsLogo2">
+                            <img src="pics/designs/greenLogo.png" alt="greenLogo">
+                            <img src="pics/designs/greenLogo2.png" alt="greenLogo2">
+                          </section>
+                   </div>
+                   </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="footer">
+        <p> &copy; Dhriti Chawla 2020</p>
+    </div>
+  </form>
+
+  <script>
+    window.onscroll = function() {
+      myFunction()
+    };
+
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
 
 
-<div id="pg4" class="pg">
-  <div id="headingz" style="margin-top: 790px; text-align: center;">
-    <p style="font-size: 40px;">CONTACT ME</p>
-  </div>
+    //
+    window.smoothScroll = function(target) {
+      var scrollContainer = target;
+      do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+      } while (scrollContainer.scrollTop == 0);
 
-  <div id="contactMe2" style="margin-top: 880px; margin-bottom: 50px;">
-        <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);" style="margin:40px">
-    <script type="text/javascript">
-    function ValidateForm(frm) {
-    if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
-    if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
-    if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
-    if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
-    return true; }
-    </script>
-    <table style="width:550px;border:0;" cellpadding="8" cellspacing="30">
-    <tr> <td>
-    <label for="Name">Name*:</label>
-    </td> <td>
-    <input name="Name" type="text" maxlength="60" style="width:250px;" />
-    </td> </tr> <tr> <td>
-    <label for="PhoneNumber">Phone number:</label>
-    </td> <td>
-    <input name="PhoneNumber" type="text" maxlength="43" style="width:250px;" />
-    </td> </tr> <tr> <td>
-    <label for="FromEmailAddress">Email address*:</label>
-    </td> <td>
-    <input name="FromEmailAddress" type="text" maxlength="90" style="width:250px;" />
-    </td> </tr> <tr> <td>
-    <label for="Comments">Comments*:</label>
-    </td> <td>
-    <textarea name="Comments" rows="7" cols="40" style="width:350px;"></textarea>
-    </td> </tr> <tr> <td>
-    * - required fields
-    </td> <td>
-    <input name="skip_Submit" type="submit" value="Submit" /> <br>
-    <script src="https://www.100forms.com/js/FORMKEY:TJDS53N8PS6P/SEND:my@email.com" type="text/javascript"></script>
-    </td> </tr>
-    </table>
-    </form>
-  </div>
+      var targetY = 0;
+      do { //find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+      } while (target = target.offsetParent);
 
-  <div id="contactMe3" style="margin-top: 1390px;margin-bottom: 50px;">
+      scroll = function(c, a, b, i) {
+        i++;
+        if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function() {
+          scroll(c, a, b, i);
+        }, 10);
+      }
+      // start scrolling
+      scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+    }
 
-    <a href="mailto:chawla5@purdue.edu" style="color: black;">
-      <img src="pics/mail.png" alt="github" style="width:45px;height:45px;border:0px; margin-left:50px;">
-    </a>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+      scrollFunction()
+    };
 
-  <a href="https://github.com/dhriti04/" style="color: black;">
-    <img src="pics/github.png" alt="github" style="width:40px;height:40px;border:0px; margin-left:290px;">
-  </a>
-
-  <a href="https://www.facebook.com/dhritichawla" style="color: black;">
-    <img src="pics/fb.png" alt="github" style="width:40px;height:40px;border:0px; margin-left:60px;">
-  </a>
-
-  <a href="https://twitter.com/DhritiChawla" style="color: black;">
-    <img src="pics/twitter.png" alt="github" style="width:40px;height:40px;border:0px; margin-left:60px;">
-  </a>
-
-  <a href="https://www.linkedin.com/in/dhritichawla/" style="color: black;">
-    <img src="pics/li.png" alt="github" style="width:40px;height:40px;border:0px; margin-left:60px;">
-  </a>
-
-  <a href="https://www.instagram.com/dhritix/" style="color: black;">
-    <img src="pics/insta.png" alt="github" style="width:60px;height:45px;border:0px; margin-left:50px;">
-  </a>
-
-
-  </div>
-</div>
-</div>
-
-<div class="footer">
-  <p> &copy; Dhriti Chawla 2018</p>
-</footer>
-
-
-</form>
-
-<script>
-  window.onscroll = function() {myFunction()};
-
-  function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-  }
-
-
-//
-window.smoothScroll = function(target) {
-  var scrollContainer = target;
-  do { //find scroll container
-      scrollContainer = scrollContainer.parentNode;
-      if (!scrollContainer) return;
-      scrollContainer.scrollTop += 1;
-  } while (scrollContainer.scrollTop == 0);
-
-  var targetY = 0;
-  do { //find the top of target relatively to the container
-      if (target == scrollContainer) break;
-      targetY += target.offsetTop;
-  } while (target = target.offsetParent);
-
-  scroll = function(c, a, b, i) {
-      i++; if (i > 30) return;
-      c.scrollTop = a + (b - a) / 30 * i;
-      setTimeout(function(){ scroll(c, a, b, i); },10);
-  }
-  // start scrolling
-  scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
-}
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    function scrollFunction() {
+      if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
         document.getElementById("myBtn").style.display = "block";
         document.getElementById("navbar").style.top = "0";
 
-    } else {
+      } else {
         document.getElementById("myBtn").style.display = "none";
         document.getElementById("navbar").style.top = "-50px";
 
+      }
     }
-}
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
 
-function toggle(id) {
-  var e = document.getElementById(id);
+    function toggle(id) {
+      var e = document.getElementById(id);
 
-  var i, tabcontent, tablinks;
-   tabcontent = document.getElementsByClassName("pg");
-   for (i = 0; i < tabcontent.length; i++) {
-       tabcontent[i].style.display = "none";
-   }
-         if(e.style.display == 'block')
-            e.style.display = 'none';
-         else
-            e.style.display = 'block';
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("pg");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      if (e.style.display == 'block')
+        e.style.display = 'none';
+      else
+        e.style.display = 'block';
 
-}
-
-
-</script>
+    }
+  </script>
 
 </body>
+
 </html>
